@@ -32,8 +32,6 @@ return (
 }
 
 
- 
-
     async function add_expenses_f(data){
         try{
          setLoading(true);
@@ -81,7 +79,7 @@ return (
                     <div className='input-label'>
                         <div className="label">
                             <label>
-                                Expense
+                                Expense type
                             </label>
                         </div>
                         <div className="expense-input">
