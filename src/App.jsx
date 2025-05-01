@@ -6,12 +6,13 @@ import Income_page from './pages/incomepage';
 import Expenses_page from './pages/expenses';
 import About_page from './pages/about';
 import PageNotFound from './pages/notfound';
+import "./css/index.css"
 import Add_expense from './components/addexpense';
 
 function App(){
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename='/frontend'>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path ='/add-expense' element={<Add_expense/>}/>
