@@ -1,0 +1,17 @@
+.expense-tracker-description{
+    background-color: white;
+    background-image: url('../assets/images/expensebackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:90vh;
+    color:white;
+    
+    padding:20px;
+    p{ background:transparent;
+        margin-top:10px;
+        min-width:100%;
+        font-size:16px;
+        line-height: 20px;
+
+    }
+}

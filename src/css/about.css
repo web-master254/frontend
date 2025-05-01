@@ -1,0 +1,14 @@
+.about-us{
+    min-height:60vh;
+    min-width:100%;
+    text-align: center;
+    padding:10vh;
+    p{
+        font-size:17px;
+        font-weight: 600;
+        line-height: 30px;
+        color:white;
+    }
+
+    
+}
